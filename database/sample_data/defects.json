@@ -1,0 +1,93 @@
+[
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef8b",
+    "code": "D01",
+    "title": "Same doctor slot can be double-booked",
+    "description": "Found during integration testing (2026-10-19).",
+    "module": "Patient Appointments",
+    "severity": "Critical",
+    "assignedId": "6ae025a2f2c0e7bb7f48ec23",
+    "status": "Open",
+    "reportedDate": "2026-10-19",
+    "resolvedDate": null,
+    "taskId": "6ae025a2f2c0e7bb7f48ed57"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef92",
+    "code": "D02",
+    "title": "Patient record overwritten on concurrent edits",
+    "description": "Found during integration testing (2026-10-20).",
+    "module": "Patient Records",
+    "severity": "Critical",
+    "assignedId": "6ae025a2f2c0e7bb7f48ec2f",
+    "status": "In Progress",
+    "reportedDate": "2026-10-20",
+    "resolvedDate": null,
+    "taskId": "6ae025a2f2c0e7bb7f48edca"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef99",
+    "code": "D03",
+    "title": "Appointment reminder shows wrong time zone",
+    "description": "Found during integration testing (2026-10-17).",
+    "module": "Patient Appointments",
+    "severity": "High",
+    "assignedId": "6ae025a2f2c0e7bb7f48ec23",
+    "status": "Resolved",
+    "reportedDate": "2026-10-17",
+    "resolvedDate": "2026-10-22",
+    "taskId": "6ae025a2f2c0e7bb7f48ed57"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48efa0",
+    "code": "D04",
+    "title": "Billing tax rounding error of PKR 1",
+    "description": "Found during integration testing (2026-10-17).",
+    "module": "Hospital Billing",
+    "severity": "Medium",
+    "assignedId": "6ae025a2f2c0e7bb7f48ec2f",
+    "status": "Closed",
+    "reportedDate": "2026-10-17",
+    "resolvedDate": "2026-10-21",
+    "taskId": "6ae025a2f2c0e7bb7f48ed89"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48efa7",
+    "code": "D05",
+    "title": "Lab report PDF not rendering on Safari",
+    "description": "Found during integration testing (2026-10-21).",
+    "module": "Laboratory Reports",
+    "severity": "Low",
+    "assignedId": "6ae025a2f2c0e7bb7f48ec29",
+    "status": "Open",
+    "reportedDate": "2026-10-21",
+    "resolvedDate": null,
+    "taskId": "6ae025a2f2c0e7bb7f48ed75"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48efae",
+    "code": "D06",
+    "title": "Video consultation drops on low bandwidth",
+    "description": "Found during integration testing (2026-10-22).",
+    "module": "Online Consultations",
+    "severity": "High",
+    "assignedId": "6ae025a2f2c0e7bb7f48ec23",
+    "status": "Open",
+    "reportedDate": "2026-10-22",
+    "resolvedDate": null,
+    "taskId": "6ae025a2f2c0e7bb7f48ed7f"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48efb5",
+    "code": "D07",
+    "title": "Cancelled appointment still visible in doctor schedule",
+    "description": "Found during integration testing (2026-10-23).",
+    "module": "Doctor Schedules",
+    "severity": "High",
+    "assignedId": "6ae025a2f2c0e7bb7f48ec26",
+    "status": "In Progress",
+    "reportedDate": "2026-10-23",
+    "resolvedDate": null,
+    "taskId": "6ae025a2f2c0e7bb7f48ed6b"
+  }
+]

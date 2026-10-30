@@ -1,0 +1,209 @@
+[
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec93",
+    "code": "1",
+    "name": "Smart Healthcare PMS",
+    "parentId": null,
+    "nodeType": "Project",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec9a",
+    "code": "1.1",
+    "name": "Project Management",
+    "parentId": "6ae025a2f2c0e7bb7f48ec93",
+    "nodeType": "Deliverable",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eca1",
+    "code": "1.1.1",
+    "name": "Initiation & Planning",
+    "parentId": "6ae025a2f2c0e7bb7f48ec9a",
+    "nodeType": "Work Package",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eca9",
+    "code": "1.1.2",
+    "name": "Deployment & Training",
+    "parentId": "6ae025a2f2c0e7bb7f48ec9a",
+    "nodeType": "Work Package",
+    "requirementId": "6ae025a2f2c0e7bb7f48ec62",
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ecb0",
+    "code": "1.2",
+    "name": "Requirements & Design",
+    "parentId": "6ae025a2f2c0e7bb7f48ec93",
+    "nodeType": "Deliverable",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ecb7",
+    "code": "1.2.1",
+    "name": "Requirements Analysis",
+    "parentId": "6ae025a2f2c0e7bb7f48ecb0",
+    "nodeType": "Work Package",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ecbf",
+    "code": "1.2.2",
+    "name": "Architecture & Database Design",
+    "parentId": "6ae025a2f2c0e7bb7f48ecb0",
+    "nodeType": "Work Package",
+    "requirementId": "6ae025a2f2c0e7bb7f48ec62",
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ecc6",
+    "code": "1.2.3",
+    "name": "UI/UX Design",
+    "parentId": "6ae025a2f2c0e7bb7f48ecb0",
+    "nodeType": "Work Package",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eccd",
+    "code": "1.3",
+    "name": "Core Modules",
+    "parentId": "6ae025a2f2c0e7bb7f48ec93",
+    "nodeType": "Deliverable",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ecd5",
+    "code": "1.3.1",
+    "name": "Patient Appointments",
+    "parentId": "6ae025a2f2c0e7bb7f48eccd",
+    "nodeType": "Work Package",
+    "requirementId": "6ae025a2f2c0e7bb7f48ec38",
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ecdd",
+    "code": "1.3.2",
+    "name": "Doctor Schedules",
+    "parentId": "6ae025a2f2c0e7bb7f48eccd",
+    "nodeType": "Work Package",
+    "requirementId": "6ae025a2f2c0e7bb7f48ec3f",
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ece5",
+    "code": "1.3.3",
+    "name": "Laboratory Reports",
+    "parentId": "6ae025a2f2c0e7bb7f48eccd",
+    "nodeType": "Work Package",
+    "requirementId": "6ae025a2f2c0e7bb7f48ec46",
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eced",
+    "code": "1.3.4",
+    "name": "Online Consultations",
+    "parentId": "6ae025a2f2c0e7bb7f48eccd",
+    "nodeType": "Work Package",
+    "requirementId": "6ae025a2f2c0e7bb7f48ec4d",
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ecf5",
+    "code": "1.3.5",
+    "name": "Hospital Billing",
+    "parentId": "6ae025a2f2c0e7bb7f48eccd",
+    "nodeType": "Work Package",
+    "requirementId": "6ae025a2f2c0e7bb7f48ec54",
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ecfd",
+    "code": "1.3.6",
+    "name": "Patient Records",
+    "parentId": "6ae025a2f2c0e7bb7f48eccd",
+    "nodeType": "Work Package",
+    "requirementId": "6ae025a2f2c0e7bb7f48ec5b",
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed04",
+    "code": "1.3.7",
+    "name": "Web Front-end",
+    "parentId": "6ae025a2f2c0e7bb7f48eccd",
+    "nodeType": "Work Package",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed0b",
+    "code": "1.4",
+    "name": "Testing & Quality Assurance",
+    "parentId": "6ae025a2f2c0e7bb7f48ec93",
+    "nodeType": "Deliverable",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed12",
+    "code": "1.4.1",
+    "name": "Integration & System Testing",
+    "parentId": "6ae025a2f2c0e7bb7f48ed0b",
+    "nodeType": "Work Package",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed19",
+    "code": "1.4.2",
+    "name": "Defect Fixing & Regression",
+    "parentId": "6ae025a2f2c0e7bb7f48ed0b",
+    "nodeType": "Work Package",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed20",
+    "code": "1.4.3",
+    "name": "User Acceptance Testing",
+    "parentId": "6ae025a2f2c0e7bb7f48ed0b",
+    "nodeType": "Work Package",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed27",
+    "code": "1.2.4",
+    "name": "Infrastructure & Licences",
+    "parentId": "6ae025a2f2c0e7bb7f48ecb0",
+    "nodeType": "Work Package",
+    "requirementId": null,
+    "description": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef58",
+    "code": "1.5",
+    "name": "AI-based preliminary diagnosis module",
+    "parentId": "6ae025a2f2c0e7bb7f48ec93",
+    "nodeType": "Deliverable",
+    "requirementId": "6ae025a2f2c0e7bb7f48ef4a",
+    "description": "Added by CR-001"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef5a",
+    "code": "1.5.1",
+    "name": "AI-based preliminary diagnosis module - development",
+    "parentId": "6ae025a2f2c0e7bb7f48ef58",
+    "nodeType": "Work Package",
+    "requirementId": "6ae025a2f2c0e7bb7f48ef4a",
+    "description": "Added by CR-001"
+  }
+]

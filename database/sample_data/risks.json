@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eff7",
+    "code": "RK01",
+    "title": "Scope creep from hospital management",
+    "description": "Scope creep from hospital management",
+    "category": "Scope",
+    "wbsId": null,
+    "likelihood": 5,
+    "impact": 4,
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "status": "Mitigating"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f003",
+    "code": "RK02",
+    "title": "Critical defects delay go-live",
+    "description": "Critical defects delay go-live",
+    "category": "Quality",
+    "wbsId": "6ae025a2f2c0e7bb7f48ed12",
+    "likelihood": 4,
+    "impact": 5,
+    "ownerId": "6ae025a2f2c0e7bb7f48ec32",
+    "status": "Open"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f013",
+    "code": "RK03",
+    "title": "Budget overrun due to change requests and rework",
+    "description": "Budget overrun due to change requests and rework",
+    "category": "Cost",
+    "wbsId": null,
+    "likelihood": 4,
+    "impact": 4,
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "status": "Open"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f01f",
+    "code": "RK04",
+    "title": "AI diagnosis gives inaccurate suggestions (liability)",
+    "description": "AI diagnosis gives inaccurate suggestions (liability)",
+    "category": "Technical",
+    "wbsId": null,
+    "likelihood": 3,
+    "impact": 5,
+    "ownerId": "6ae025a2f2c0e7bb7f48ec26",
+    "status": "Open"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f02b",
+    "code": "RK05",
+    "title": "Poor internet at hospital sites affects consultations",
+    "description": "Poor internet at hospital sites affects consultations",
+    "category": "External",
+    "wbsId": "6ae025a2f2c0e7bb7f48eced",
+    "likelihood": 4,
+    "impact": 3,
+    "ownerId": "6ae025a2f2c0e7bb7f48ec23",
+    "status": "Open"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f037",
+    "code": "RK06",
+    "title": "Patient data privacy breach",
+    "description": "Patient data privacy breach",
+    "category": "Security",
+    "wbsId": "6ae025a2f2c0e7bb7f48ecfd",
+    "likelihood": 2,
+    "impact": 5,
+    "ownerId": "6ae025a2f2c0e7bb7f48ec2f",
+    "status": "Open"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f043",
+    "code": "RK07",
+    "title": "Integration issues with lab equipment exports",
+    "description": "Integration issues with lab equipment exports",
+    "category": "Technical",
+    "wbsId": "6ae025a2f2c0e7bb7f48ece5",
+    "likelihood": 3,
+    "impact": 3,
+    "ownerId": "6ae025a2f2c0e7bb7f48ec26",
+    "status": "Mitigating"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f04f",
+    "code": "RK08",
+    "title": "Key backend developer unavailable",
+    "description": "Key backend developer unavailable",
+    "category": "Resource",
+    "wbsId": null,
+    "likelihood": 2,
+    "impact": 4,
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "status": "Open"
+  }
+]

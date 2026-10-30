@@ -1,0 +1,240 @@
+[
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee16",
+    "taskId": "6ae025a2f2c0e7bb7f48ed31",
+    "date": "2026-08-03",
+    "amount": 60000,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee23",
+    "taskId": "6ae025a2f2c0e7bb7f48ed3a",
+    "date": "2026-08-08",
+    "amount": 80000,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee28",
+    "taskId": "6ae025a2f2c0e7bb7f48ed3a",
+    "date": "2026-08-15",
+    "amount": 80000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee35",
+    "taskId": "6ae025a2f2c0e7bb7f48ed44",
+    "date": "2026-08-20",
+    "amount": 132500,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee3a",
+    "taskId": "6ae025a2f2c0e7bb7f48ed44",
+    "date": "2026-08-27",
+    "amount": 132500,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee47",
+    "taskId": "6ae025a2f2c0e7bb7f48ed4d",
+    "date": "2026-08-20",
+    "amount": 55000,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee4c",
+    "taskId": "6ae025a2f2c0e7bb7f48ed4d",
+    "date": "2026-08-27",
+    "amount": 55000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee59",
+    "taskId": "6ae025a2f2c0e7bb7f48ed57",
+    "date": "2026-08-30",
+    "amount": 113333,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee5e",
+    "taskId": "6ae025a2f2c0e7bb7f48ed57",
+    "date": "2026-09-06",
+    "amount": 113333,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee63",
+    "taskId": "6ae025a2f2c0e7bb7f48ed57",
+    "date": "2026-09-13",
+    "amount": 113334,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee70",
+    "taskId": "6ae025a2f2c0e7bb7f48ed61",
+    "date": "2026-08-29",
+    "amount": 60000,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee75",
+    "taskId": "6ae025a2f2c0e7bb7f48ed61",
+    "date": "2026-09-05",
+    "amount": 60000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee7a",
+    "taskId": "6ae025a2f2c0e7bb7f48ed61",
+    "date": "2026-09-12",
+    "amount": 60000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee87",
+    "taskId": "6ae025a2f2c0e7bb7f48ed6b",
+    "date": "2026-08-30",
+    "amount": 110000,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee8c",
+    "taskId": "6ae025a2f2c0e7bb7f48ed6b",
+    "date": "2026-09-06",
+    "amount": 110000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee99",
+    "taskId": "6ae025a2f2c0e7bb7f48ed75",
+    "date": "2026-09-13",
+    "amount": 96667,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ee9e",
+    "taskId": "6ae025a2f2c0e7bb7f48ed75",
+    "date": "2026-09-20",
+    "amount": 96667,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eea3",
+    "taskId": "6ae025a2f2c0e7bb7f48ed75",
+    "date": "2026-09-27",
+    "amount": 96666,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eeb0",
+    "taskId": "6ae025a2f2c0e7bb7f48ed7f",
+    "date": "2026-09-19",
+    "amount": 125000,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eeb5",
+    "taskId": "6ae025a2f2c0e7bb7f48ed7f",
+    "date": "2026-09-26",
+    "amount": 125000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eeba",
+    "taskId": "6ae025a2f2c0e7bb7f48ed7f",
+    "date": "2026-10-03",
+    "amount": 125000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eebf",
+    "taskId": "6ae025a2f2c0e7bb7f48ed7f",
+    "date": "2026-10-10",
+    "amount": 125000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eecc",
+    "taskId": "6ae025a2f2c0e7bb7f48ed89",
+    "date": "2026-08-30",
+    "amount": 100000,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eed1",
+    "taskId": "6ae025a2f2c0e7bb7f48ed89",
+    "date": "2026-09-06",
+    "amount": 100000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eed6",
+    "taskId": "6ae025a2f2c0e7bb7f48ed89",
+    "date": "2026-09-13",
+    "amount": 100000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eee3",
+    "taskId": "6ae025a2f2c0e7bb7f48ed92",
+    "date": "2026-08-29",
+    "amount": 80000,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eee8",
+    "taskId": "6ae025a2f2c0e7bb7f48ed92",
+    "date": "2026-09-05",
+    "amount": 80000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eeed",
+    "taskId": "6ae025a2f2c0e7bb7f48ed92",
+    "date": "2026-09-12",
+    "amount": 80000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eef2",
+    "taskId": "6ae025a2f2c0e7bb7f48ed92",
+    "date": "2026-09-19",
+    "amount": 80000,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eeff",
+    "taskId": "6ae025a2f2c0e7bb7f48edc0",
+    "date": "2026-08-30",
+    "amount": 960000,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef0c",
+    "taskId": "6ae025a2f2c0e7bb7f48edca",
+    "date": "2026-08-30",
+    "amount": 112500,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef11",
+    "taskId": "6ae025a2f2c0e7bb7f48edca",
+    "date": "2026-09-06",
+    "amount": 112500,
+    "description": "Labour & resources"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef23",
+    "taskId": "6ae025a2f2c0e7bb7f48ed9b",
+    "date": "2026-10-16",
+    "amount": 35000,
+    "description": "Labour, tools & setup"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef28",
+    "taskId": "6ae025a2f2c0e7bb7f48ed9b",
+    "date": "2026-10-23",
+    "amount": 35000,
+    "description": "Labour & resources"
+  }
+]

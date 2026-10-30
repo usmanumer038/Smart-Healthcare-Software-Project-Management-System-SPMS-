@@ -1,0 +1,710 @@
+{
+  "database": "smart_healthcare_spms",
+  "collections": {
+    "project": {
+      "name": {
+        "type": "String",
+        "required": true
+      },
+      "client": {
+        "type": "String"
+      },
+      "sponsor": {
+        "type": "String"
+      },
+      "manager": {
+        "type": "String"
+      },
+      "objectives": {
+        "type": "String",
+        "required": true
+      },
+      "stakeholders": {
+        "type": "String",
+        "required": true
+      },
+      "scopeIn": {
+        "type": "String",
+        "required": true
+      },
+      "scopeOut": {
+        "type": "String"
+      },
+      "approvedBudget": {
+        "type": "Number",
+        "required": true,
+        "min": 1
+      },
+      "baselineBudget": {
+        "type": "Number",
+        "required": true,
+        "min": 1
+      },
+      "startDate": {
+        "type": "String",
+        "required": true,
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      "deadline": {
+        "type": "String",
+        "required": true,
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      "baselineDeadline": {
+        "type": "String",
+        "required": true,
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      "status": {
+        "type": "String",
+        "enum": [
+          "Initiated",
+          "Planning",
+          "Executing",
+          "Monitoring & Control",
+          "Closed"
+        ],
+        "default": "Planning"
+      },
+      "statusDate": {
+        "type": "String",
+        "required": true,
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      "cpiWarn": {
+        "type": "Number",
+        "default": 0.95
+      },
+      "cpiCrit": {
+        "type": "Number",
+        "default": 0.9
+      },
+      "spiWarn": {
+        "type": "Number",
+        "default": 0.95
+      },
+      "spiCrit": {
+        "type": "Number",
+        "default": 0.9
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "plan_sections": {
+      "section": {
+        "type": "String",
+        "required": true,
+        "unique": true,
+        "enum": [
+          "Scope Management",
+          "Schedule Management",
+          "Cost Management",
+          "Quality Management",
+          "Risk Management",
+          "Communication"
+        ]
+      },
+      "content": {
+        "type": "String",
+        "default": ""
+      },
+      "updated": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "team_members": {
+      "name": {
+        "type": "String",
+        "required": true,
+        "unique": true
+      },
+      "role": {
+        "type": "String",
+        "required": true
+      },
+      "responsibility": {
+        "type": "String"
+      },
+      "dailyRate": {
+        "type": "Number",
+        "required": true,
+        "min": 0
+      },
+      "email": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "requirements": {
+      "code": {
+        "type": "String",
+        "required": true,
+        "unique": true
+      },
+      "title": {
+        "type": "String",
+        "required": true
+      },
+      "description": {
+        "type": "String"
+      },
+      "priority": {
+        "type": "String",
+        "required": true,
+        "enum": [
+          "Must",
+          "Should",
+          "Could",
+          "Won't"
+        ]
+      },
+      "status": {
+        "type": "String",
+        "enum": [
+          "Proposed",
+          "Approved",
+          "Rejected"
+        ],
+        "default": "Proposed"
+      },
+      "source": {
+        "type": "String",
+        "enum": [
+          "Original",
+          "Change Request"
+        ],
+        "default": "Original"
+      },
+      "crId": {
+        "type": "ObjectId",
+        "ref": "change_requests",
+        "default": null
+      },
+      "created": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "wbs": {
+      "code": {
+        "type": "String",
+        "required": true,
+        "unique": true
+      },
+      "name": {
+        "type": "String",
+        "required": true
+      },
+      "parentId": {
+        "type": "ObjectId",
+        "ref": "wbs",
+        "default": null
+      },
+      "nodeType": {
+        "type": "String",
+        "required": true,
+        "enum": [
+          "Project",
+          "Deliverable",
+          "Work Package"
+        ]
+      },
+      "requirementId": {
+        "type": "ObjectId",
+        "ref": "requirements",
+        "default": null
+      },
+      "description": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "tasks": {
+      "code": {
+        "type": "String",
+        "required": true,
+        "unique": true
+      },
+      "name": {
+        "type": "String",
+        "required": true
+      },
+      "wbsId": {
+        "type": "ObjectId",
+        "ref": "wbs",
+        "required": true,
+        "default": null
+      },
+      "assigneeId": {
+        "type": "ObjectId",
+        "ref": "team_members",
+        "default": null
+      },
+      "duration": {
+        "type": "Number",
+        "required": true,
+        "min": 1
+      },
+      "budget": {
+        "type": "Number",
+        "required": true,
+        "min": 0
+      },
+      "actualStart": {
+        "type": "String",
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/",
+        "default": null
+      },
+      "actualEnd": {
+        "type": "String",
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/",
+        "default": null
+      },
+      "percent": {
+        "type": "Number",
+        "min": 0,
+        "max": 100,
+        "default": 0
+      },
+      "preds": {
+        "type": "Array",
+        "items": "ObjectId",
+        "ref": "tasks"
+      },
+      "crId": {
+        "type": "ObjectId",
+        "ref": "change_requests",
+        "default": null
+      },
+      "notes": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "milestones": {
+      "name": {
+        "type": "String",
+        "required": true
+      },
+      "taskId": {
+        "type": "ObjectId",
+        "ref": "tasks",
+        "required": true,
+        "default": null
+      },
+      "ownerId": {
+        "type": "ObjectId",
+        "ref": "team_members",
+        "default": null
+      },
+      "description": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "expenses": {
+      "taskId": {
+        "type": "ObjectId",
+        "ref": "tasks",
+        "required": true,
+        "default": null
+      },
+      "date": {
+        "type": "String",
+        "required": true,
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      "amount": {
+        "type": "Number",
+        "required": true,
+        "min": 1
+      },
+      "description": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "change_requests": {
+      "code": {
+        "type": "String",
+        "required": true,
+        "unique": true
+      },
+      "title": {
+        "type": "String",
+        "required": true
+      },
+      "description": {
+        "type": "String"
+      },
+      "justification": {
+        "type": "String",
+        "required": true
+      },
+      "requestedBy": {
+        "type": "String",
+        "required": true
+      },
+      "requestDate": {
+        "type": "String",
+        "required": true,
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      "priority": {
+        "type": "String",
+        "required": true,
+        "enum": [
+          "Must",
+          "Should",
+          "Could",
+          "Won't"
+        ]
+      },
+      "costImpact": {
+        "type": "Number",
+        "required": true,
+        "min": 0
+      },
+      "scheduleImpact": {
+        "type": "Number",
+        "required": true,
+        "min": 0
+      },
+      "afterTaskId": {
+        "type": "ObjectId",
+        "ref": "tasks",
+        "default": null
+      },
+      "beforeTaskId": {
+        "type": "ObjectId",
+        "ref": "tasks",
+        "default": null
+      },
+      "assigneeId": {
+        "type": "ObjectId",
+        "ref": "team_members",
+        "default": null
+      },
+      "status": {
+        "type": "String",
+        "enum": [
+          "Pending",
+          "Approved",
+          "Rejected"
+        ],
+        "default": "Pending"
+      },
+      "decisionDate": {
+        "type": "String"
+      },
+      "decidedBy": {
+        "type": "String"
+      },
+      "decisionNotes": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "baseline_history": {
+      "changeDate": {
+        "type": "String",
+        "required": true,
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      "crId": {
+        "type": "ObjectId",
+        "ref": "change_requests",
+        "default": null
+      },
+      "oldBudget": {
+        "type": "Number"
+      },
+      "newBudget": {
+        "type": "Number"
+      },
+      "oldDeadline": {
+        "type": "String"
+      },
+      "newDeadline": {
+        "type": "String"
+      },
+      "note": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "defects": {
+      "code": {
+        "type": "String",
+        "required": true,
+        "unique": true
+      },
+      "title": {
+        "type": "String",
+        "required": true
+      },
+      "description": {
+        "type": "String"
+      },
+      "module": {
+        "type": "String",
+        "required": true
+      },
+      "severity": {
+        "type": "String",
+        "required": true,
+        "enum": [
+          "Critical",
+          "High",
+          "Medium",
+          "Low"
+        ]
+      },
+      "assignedId": {
+        "type": "ObjectId",
+        "ref": "team_members",
+        "default": null
+      },
+      "status": {
+        "type": "String",
+        "enum": [
+          "Open",
+          "In Progress",
+          "Resolved",
+          "Closed"
+        ],
+        "default": "Open"
+      },
+      "reportedDate": {
+        "type": "String",
+        "required": true,
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      "resolvedDate": {
+        "type": "String",
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/",
+        "default": null
+      },
+      "taskId": {
+        "type": "ObjectId",
+        "ref": "tasks",
+        "default": null
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "quality_checks": {
+      "code": {
+        "type": "String",
+        "required": true,
+        "unique": true
+      },
+      "wbsId": {
+        "type": "ObjectId",
+        "ref": "wbs",
+        "required": true,
+        "default": null
+      },
+      "criterion": {
+        "type": "String",
+        "required": true
+      },
+      "checkType": {
+        "type": "String",
+        "required": true,
+        "enum": [
+          "Inspection",
+          "Test"
+        ]
+      },
+      "expected": {
+        "type": "String"
+      },
+      "actual": {
+        "type": "String"
+      },
+      "result": {
+        "type": "String",
+        "enum": [
+          "Pending",
+          "Pass",
+          "Fail"
+        ],
+        "default": "Pending"
+      },
+      "inspectorId": {
+        "type": "ObjectId",
+        "ref": "team_members",
+        "default": null
+      },
+      "checkDate": {
+        "type": "String",
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/",
+        "default": null
+      },
+      "defectId": {
+        "type": "ObjectId",
+        "ref": "defects",
+        "default": null
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "risks": {
+      "code": {
+        "type": "String",
+        "required": true,
+        "unique": true
+      },
+      "title": {
+        "type": "String",
+        "required": true
+      },
+      "description": {
+        "type": "String"
+      },
+      "category": {
+        "type": "String",
+        "required": true,
+        "enum": [
+          "Scope",
+          "Schedule",
+          "Cost",
+          "Quality",
+          "Technical",
+          "Resource",
+          "Security",
+          "External"
+        ]
+      },
+      "wbsId": {
+        "type": "ObjectId",
+        "ref": "wbs",
+        "default": null
+      },
+      "likelihood": {
+        "type": "Number",
+        "required": true,
+        "min": 1,
+        "max": 5
+      },
+      "impact": {
+        "type": "Number",
+        "required": true,
+        "min": 1,
+        "max": 5
+      },
+      "ownerId": {
+        "type": "ObjectId",
+        "ref": "team_members",
+        "default": null
+      },
+      "status": {
+        "type": "String",
+        "enum": [
+          "Open",
+          "Mitigating",
+          "Closed"
+        ],
+        "default": "Open"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "countermeasures": {
+      "riskId": {
+        "type": "ObjectId",
+        "ref": "risks",
+        "required": true,
+        "default": null
+      },
+      "actionType": {
+        "type": "String",
+        "required": true,
+        "enum": [
+          "Preventive",
+          "Corrective"
+        ]
+      },
+      "action": {
+        "type": "String",
+        "required": true
+      },
+      "ownerId": {
+        "type": "ObjectId",
+        "ref": "team_members",
+        "default": null
+      },
+      "feasible": {
+        "type": "Boolean",
+        "default": true
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "closure": {
+      "closedDate": {
+        "type": "String",
+        "required": true,
+        "pattern": "/^\\d{4}-\\d{2}-\\d{2}$/"
+      },
+      "finalCost": {
+        "type": "Number"
+      },
+      "acceptedBy": {
+        "type": "String",
+        "required": true
+      },
+      "lessons": {
+        "type": "String",
+        "required": true
+      },
+      "notes": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    },
+    "audit_log": {
+      "ts": {
+        "type": "String",
+        "required": true
+      },
+      "action": {
+        "type": "String",
+        "required": true
+      },
+      "details": {
+        "type": "String"
+      },
+      "_id": {
+        "type": "ObjectId"
+      }
+    }
+  }
+}

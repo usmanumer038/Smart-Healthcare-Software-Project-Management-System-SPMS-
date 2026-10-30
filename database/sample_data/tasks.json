@@ -1,0 +1,313 @@
+[
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed31",
+    "code": "T01",
+    "name": "Project charter, kickoff & plan",
+    "wbsId": "6ae025a2f2c0e7bb7f48eca1",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec20",
+    "duration": 5,
+    "budget": 60000,
+    "actualStart": "2026-08-03",
+    "actualEnd": "2026-08-07",
+    "percent": 100,
+    "preds": [],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed3a",
+    "code": "T02",
+    "name": "Requirements elicitation (5 hospitals)",
+    "wbsId": "6ae025a2f2c0e7bb7f48ecb7",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec20",
+    "duration": 10,
+    "budget": 150000,
+    "actualStart": "2026-08-08",
+    "actualEnd": "2026-08-19",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed31"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed44",
+    "code": "T03",
+    "name": "System architecture & database design",
+    "wbsId": "6ae025a2f2c0e7bb7f48ecbf",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec2f",
+    "duration": 10,
+    "budget": 250000,
+    "actualStart": "2026-08-20",
+    "actualEnd": "2026-08-29",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed3a"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed4d",
+    "code": "T04",
+    "name": "UI/UX design & prototypes",
+    "wbsId": "6ae025a2f2c0e7bb7f48ecc6",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec29",
+    "duration": 10,
+    "budget": 110000,
+    "actualStart": "2026-08-20",
+    "actualEnd": "2026-08-28",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed3a"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed57",
+    "code": "T05",
+    "name": "Appointment module backend",
+    "wbsId": "6ae025a2f2c0e7bb7f48ecd5",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec23",
+    "duration": 18,
+    "budget": 300000,
+    "actualStart": "2026-08-30",
+    "actualEnd": "2026-09-18",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed44"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed61",
+    "code": "T06",
+    "name": "Appointment module frontend",
+    "wbsId": "6ae025a2f2c0e7bb7f48ecd5",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec2c",
+    "duration": 15,
+    "budget": 180000,
+    "actualStart": "2026-08-29",
+    "actualEnd": "2026-09-14",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed4d"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed6b",
+    "code": "T07",
+    "name": "Doctor schedule module",
+    "wbsId": "6ae025a2f2c0e7bb7f48ecdd",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec26",
+    "duration": 14,
+    "budget": 220000,
+    "actualStart": "2026-08-30",
+    "actualEnd": "2026-09-12",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed44"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed75",
+    "code": "T08",
+    "name": "Laboratory reports module",
+    "wbsId": "6ae025a2f2c0e7bb7f48ece5",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec26",
+    "duration": 16,
+    "budget": 260000,
+    "actualStart": "2026-09-13",
+    "actualEnd": "2026-09-30",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed6b"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed7f",
+    "code": "T09",
+    "name": "Online consultation module",
+    "wbsId": "6ae025a2f2c0e7bb7f48eced",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec23",
+    "duration": 25,
+    "budget": 420000,
+    "actualStart": "2026-09-19",
+    "actualEnd": "2026-10-15",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed57"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed89",
+    "code": "T10",
+    "name": "Billing module",
+    "wbsId": "6ae025a2f2c0e7bb7f48ecf5",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec2f",
+    "duration": 16,
+    "budget": 280000,
+    "actualStart": "2026-08-30",
+    "actualEnd": "2026-09-16",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed44"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed92",
+    "code": "T11",
+    "name": "Front-end for schedules, labs & billing",
+    "wbsId": "6ae025a2f2c0e7bb7f48ed04",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec29",
+    "duration": 25,
+    "budget": 300000,
+    "actualStart": "2026-08-29",
+    "actualEnd": "2026-09-25",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed4d"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ed9b",
+    "code": "T12",
+    "name": "Integration & system testing",
+    "wbsId": "6ae025a2f2c0e7bb7f48ed12",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec32",
+    "duration": 14,
+    "budget": 200000,
+    "actualStart": "2026-10-16",
+    "actualEnd": null,
+    "percent": 25,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed61",
+      "6ae025a2f2c0e7bb7f48ed75",
+      "6ae025a2f2c0e7bb7f48ed7f",
+      "6ae025a2f2c0e7bb7f48ed89",
+      "6ae025a2f2c0e7bb7f48ed92",
+      "6ae025a2f2c0e7bb7f48edca"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48eda4",
+    "code": "T13",
+    "name": "Defect fixing & regression testing",
+    "wbsId": "6ae025a2f2c0e7bb7f48ed19",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec23",
+    "duration": 10,
+    "budget": 180000,
+    "actualStart": null,
+    "actualEnd": null,
+    "percent": 0,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed9b"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48edad",
+    "code": "T14",
+    "name": "User acceptance testing at hospitals",
+    "wbsId": "6ae025a2f2c0e7bb7f48ed20",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec32",
+    "duration": 10,
+    "budget": 150000,
+    "actualStart": null,
+    "actualEnd": null,
+    "percent": 0,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48eda4",
+      "6ae025a2f2c0e7bb7f48ef5d"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48edb7",
+    "code": "T15",
+    "name": "Deployment to 5 hospitals & staff training",
+    "wbsId": "6ae025a2f2c0e7bb7f48eca9",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec20",
+    "duration": 10,
+    "budget": 350000,
+    "actualStart": null,
+    "actualEnd": null,
+    "percent": 0,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48edad",
+      "6ae025a2f2c0e7bb7f48edc0"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48edc0",
+    "code": "T16",
+    "name": "Hosting, licences & server procurement",
+    "wbsId": "6ae025a2f2c0e7bb7f48ed27",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec2f",
+    "duration": 5,
+    "budget": 900000,
+    "actualStart": "2026-08-30",
+    "actualEnd": "2026-09-03",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed44"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48edca",
+    "code": "T17",
+    "name": "Patient record (EMR) module",
+    "wbsId": "6ae025a2f2c0e7bb7f48ecfd",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec2f",
+    "duration": 12,
+    "budget": 200000,
+    "actualStart": "2026-08-30",
+    "actualEnd": "2026-09-12",
+    "percent": 100,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48ed44"
+    ],
+    "crId": null,
+    "notes": ""
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef5d",
+    "code": "T18",
+    "name": "AI-based preliminary diagnosis module",
+    "wbsId": "6ae025a2f2c0e7bb7f48ef5a",
+    "assigneeId": "6ae025a2f2c0e7bb7f48ec26",
+    "duration": 12,
+    "budget": 450000,
+    "actualStart": null,
+    "actualEnd": null,
+    "percent": 0,
+    "preds": [
+      "6ae025a2f2c0e7bb7f48eda4"
+    ],
+    "crId": "6ae025a2f2c0e7bb7f48ef47",
+    "notes": "Created by approval of CR-001"
+  }
+]

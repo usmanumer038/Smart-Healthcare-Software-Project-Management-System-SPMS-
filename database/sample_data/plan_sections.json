@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "6ae025a24821de1fabf5cbf4",
+    "section": "Scope Management",
+    "content": "In scope: Web system for appointments, doctor schedules, lab reports, online consultations, billing, patient records; deployment and staff training at 5 hospitals.\nOut of scope: Medical hardware procurement, insurance-claim integration, pharmacy inventory, data migration of paper records older than 2 years.\n\nApproved scope baseline (8 requirements):\n  R01 [Must] Patient appointment booking, rescheduling and cancellation\n  R02 [Must] Doctor schedule and availability management\n  R03 [Must] Laboratory report upload, approval and patient access\n  R04 [Should] Online video consultations\n  R05 [Must] Hospital billing, invoices and payments\n  R06 [Must] Patient record management (EMR basic)\n  R07 [Must] Multi-hospital support for 5 branches\n  R09 [Should] AI-based preliminary diagnosis module\n\nWBS work packages: 17\n  1.1.1 Initiation & Planning\n  1.1.2 Deployment & Training\n  1.2.1 Requirements Analysis\n  1.2.2 Architecture & Database Design\n  1.2.3 UI/UX Design\n  1.2.4 Infrastructure & Licences\n  1.3.1 Patient Appointments\n  1.3.2 Doctor Schedules\n  1.3.3 Laboratory Reports\n  1.3.4 Online Consultations\n  1.3.5 Hospital Billing\n  1.3.6 Patient Records\n  1.3.7 Web Front-end\n  1.4.1 Integration & System Testing\n  1.4.2 Defect Fixing & Regression\n  1.4.3 User Acceptance Testing\n  1.5.1 AI-based preliminary diagnosis module - development\n\nChange control: every new requirement must enter through a change request; only approved requirements may be linked to WBS work packages.",
+    "updated": "2026-10-27 04:16"
+  },
+  {
+    "_id": "6ae025a24821de1fabf5cbf5",
+    "section": "Schedule Management",
+    "content": "Start: 2026-08-03   Approved deadline: 2026-12-04 (original 2026-11-22)\nPlanned finish (CPM): 2026-12-04\nActivities: 18, critical path: T01 -> T02 -> T03 -> T05 -> T09 -> T12 -> T13 -> T18 -> T14 -> T15\nMilestones:\n  M1 Charter approved & kickoff: planned 2026-08-07\n  M2 Requirements & design signed off: planned 2026-08-27\n  M3 Core modules complete: planned 2026-10-09\n  M4 System testing complete: planned 2026-11-02\n  M5 UAT sign-off: planned 2026-11-24\n  M6 Go-live at 5 hospitals (project closure): planned 2026-12-04\n\nMethod: finish-to-start dependencies, forward/backward pass, weekly progress updates against the status date.",
+    "updated": "2026-10-27 04:16"
+  },
+  {
+    "_id": "6ae025a24821de1fabf5cbf6",
+    "section": "Cost Management",
+    "content": "Approved budget: PKR 5,450,000 (original PKR 5,000,000)\nPlanned cost baseline (BAC): PKR 4,960,000\nManagement reserve: PKR 490,000\nEVM thresholds: CPI warning < 0.95, critical < 0.9; SPI warning < 0.95, critical < 0.9.\nActual costs are recorded per activity as expenses; PV, EV, AC, CPI and SPI are computed automatically at each status date.",
+    "updated": "2026-10-27 04:16"
+  },
+  {
+    "_id": "6ae025a24821de1fabf5cbf7",
+    "section": "Quality Management",
+    "content": "Quality checklist items: 8. Every deliverable is inspected or tested before acceptance. Failed checks raise defects.\nDefect severity: Critical / High / Medium / Low. Release criteria: zero open Critical defects, all checklist items Pass.",
+    "updated": "2026-10-27 04:16"
+  },
+  {
+    "_id": "6ae025a24821de1fabf5cbf8",
+    "section": "Risk Management",
+    "content": "Risks are scored Likelihood x Impact (1-5 each) in the prioritization matrix. Score >= 15 High, 8-14 Medium, < 8 Low. High risks require preventive and corrective countermeasures in the PDPC.",
+    "updated": "2026-10-27 04:16"
+  },
+  {
+    "_id": "6ae025a24821de1fabf5cbf9",
+    "section": "Communication",
+    "content": "Sponsor: Hospital Network Board (CEO office); Project manager: Ayesha Khan.\nStakeholders: Hospital Network Board (sponsor); hospital administrators (5); doctors; lab staff; billing department; patients; IT department; development team; QA.\nWeekly status report generated from the dashboard.",
+    "updated": "2026-10-27 04:16"
+  }
+]

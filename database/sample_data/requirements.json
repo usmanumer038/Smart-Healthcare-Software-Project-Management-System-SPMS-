@@ -1,0 +1,123 @@
+[
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec38",
+    "code": "R01",
+    "title": "Patient appointment booking, rescheduling and cancellation",
+    "description": "Patient appointment booking, rescheduling and cancellation",
+    "priority": "Must",
+    "status": "Approved",
+    "source": "Original",
+    "crId": null,
+    "created": "2026-10-26"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec3f",
+    "code": "R02",
+    "title": "Doctor schedule and availability management",
+    "description": "Doctor schedule and availability management",
+    "priority": "Must",
+    "status": "Approved",
+    "source": "Original",
+    "crId": null,
+    "created": "2026-10-26"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec46",
+    "code": "R03",
+    "title": "Laboratory report upload, approval and patient access",
+    "description": "Laboratory report upload, approval and patient access",
+    "priority": "Must",
+    "status": "Approved",
+    "source": "Original",
+    "crId": null,
+    "created": "2026-10-26"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec4d",
+    "code": "R04",
+    "title": "Online video consultations",
+    "description": "Online video consultations",
+    "priority": "Should",
+    "status": "Approved",
+    "source": "Original",
+    "crId": null,
+    "created": "2026-10-26"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec54",
+    "code": "R05",
+    "title": "Hospital billing, invoices and payments",
+    "description": "Hospital billing, invoices and payments",
+    "priority": "Must",
+    "status": "Approved",
+    "source": "Original",
+    "crId": null,
+    "created": "2026-10-26"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec5b",
+    "code": "R06",
+    "title": "Patient record management (EMR basic)",
+    "description": "Patient record management (EMR basic)",
+    "priority": "Must",
+    "status": "Approved",
+    "source": "Original",
+    "crId": null,
+    "created": "2026-10-26"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec62",
+    "code": "R07",
+    "title": "Multi-hospital support for 5 branches",
+    "description": "Multi-hospital support for 5 branches",
+    "priority": "Must",
+    "status": "Approved",
+    "source": "Original",
+    "crId": null,
+    "created": "2026-10-26"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec69",
+    "code": "R08",
+    "title": "SMS appointment reminders",
+    "description": "SMS appointment reminders",
+    "priority": "Could",
+    "status": "Proposed",
+    "source": "Original",
+    "crId": null,
+    "created": "2026-10-26"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef4a",
+    "code": "R09",
+    "title": "AI-based preliminary diagnosis module",
+    "description": "Symptom checker suggesting a preliminary diagnosis and the right specialist before booking.",
+    "priority": "Should",
+    "status": "Approved",
+    "source": "Change Request",
+    "crId": "6ae025a2f2c0e7bb7f48ef47",
+    "created": "2026-09-28"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef71",
+    "code": "R10",
+    "title": "Patient mobile application (Android/iOS)",
+    "description": "Mobile app for booking appointments, viewing lab reports and joining consultations.",
+    "priority": "Should",
+    "status": "Proposed",
+    "source": "Change Request",
+    "crId": "6ae025a2f2c0e7bb7f48ef6e",
+    "created": "2026-10-12"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef7d",
+    "code": "R11",
+    "title": "Blockchain-based patient record ledger",
+    "description": "Store record hashes on a private blockchain.",
+    "priority": "Could",
+    "status": "Rejected",
+    "source": "Change Request",
+    "crId": "6ae025a2f2c0e7bb7f48ef7a",
+    "created": "2026-10-01"
+  }
+]

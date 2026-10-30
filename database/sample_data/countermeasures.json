@@ -1,0 +1,138 @@
+[
+  {
+    "_id": "6ae025a2f2c0e7bb7f48effb",
+    "riskId": "6ae025a2f2c0e7bb7f48eff7",
+    "actionType": "Preventive",
+    "action": "Formal change control board; every request needs a CR with cost/schedule impact",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48efff",
+    "riskId": "6ae025a2f2c0e7bb7f48eff7",
+    "actionType": "Corrective",
+    "action": "Re-baseline schedule and budget only through approved CRs",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f007",
+    "riskId": "6ae025a2f2c0e7bb7f48f003",
+    "actionType": "Preventive",
+    "action": "Code reviews and unit tests before integration",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec23",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f00b",
+    "riskId": "6ae025a2f2c0e7bb7f48f003",
+    "actionType": "Corrective",
+    "action": "Dedicated defect-fix sprint and daily triage of critical defects",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec32",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f00f",
+    "riskId": "6ae025a2f2c0e7bb7f48f003",
+    "actionType": "Corrective",
+    "action": "Phased go-live (2 hospitals first)",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f017",
+    "riskId": "6ae025a2f2c0e7bb7f48f013",
+    "actionType": "Preventive",
+    "action": "Weekly EVM review with CPI/SPI thresholds",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f01b",
+    "riskId": "6ae025a2f2c0e7bb7f48f013",
+    "actionType": "Corrective",
+    "action": "Use management reserve; descope 'Could' requirements",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f023",
+    "riskId": "6ae025a2f2c0e7bb7f48f01f",
+    "actionType": "Preventive",
+    "action": "Label output as preliminary; doctor must confirm",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec26",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f027",
+    "riskId": "6ae025a2f2c0e7bb7f48f01f",
+    "actionType": "Corrective",
+    "action": "Disable module via feature flag if accuracy < 85%",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec26",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f02f",
+    "riskId": "6ae025a2f2c0e7bb7f48f02b",
+    "actionType": "Preventive",
+    "action": "Adaptive bitrate and audio-only fallback",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec23",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f033",
+    "riskId": "6ae025a2f2c0e7bb7f48f02b",
+    "actionType": "Corrective",
+    "action": "Switch to phone consultation and reschedule",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f03b",
+    "riskId": "6ae025a2f2c0e7bb7f48f037",
+    "actionType": "Preventive",
+    "action": "Encryption at rest, role-based access, audit logging",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec2f",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f03f",
+    "riskId": "6ae025a2f2c0e7bb7f48f037",
+    "actionType": "Corrective",
+    "action": "Incident response plan and breach notification",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f047",
+    "riskId": "6ae025a2f2c0e7bb7f48f043",
+    "actionType": "Preventive",
+    "action": "Agree on HL7/CSV export format early",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec26",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f04b",
+    "riskId": "6ae025a2f2c0e7bb7f48f043",
+    "actionType": "Corrective",
+    "action": "Manual upload fallback for lab staff",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec29",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f053",
+    "riskId": "6ae025a2f2c0e7bb7f48f04f",
+    "actionType": "Preventive",
+    "action": "Pair programming and documentation of modules",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec23",
+    "feasible": true
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f057",
+    "riskId": "6ae025a2f2c0e7bb7f48f04f",
+    "actionType": "Corrective",
+    "action": "Hire a contract developer",
+    "ownerId": "6ae025a2f2c0e7bb7f48ec20",
+    "feasible": false
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec20",
+    "name": "Ayesha Khan",
+    "role": "Project Manager",
+    "responsibility": "Planning, stakeholder communication, change control, reporting",
+    "dailyRate": 12000,
+    "email": "ayesha@healthsoft.pk"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec23",
+    "name": "Usman Ali",
+    "role": "Backend Developer",
+    "responsibility": "Appointments, consultations, APIs",
+    "dailyRate": 9000,
+    "email": "usman@healthsoft.pk"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec26",
+    "name": "Hamza Raza",
+    "role": "Backend Developer",
+    "responsibility": "Doctor schedules, lab reports, AI module",
+    "dailyRate": 9000,
+    "email": "hamza@healthsoft.pk"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec29",
+    "name": "Fatima Noor",
+    "role": "Frontend Developer",
+    "responsibility": "UI/UX design, web front-end",
+    "dailyRate": 8000,
+    "email": "fatima@healthsoft.pk"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec2c",
+    "name": "Bilal Ahmed",
+    "role": "Frontend Developer",
+    "responsibility": "Appointment and billing screens, mobile UI",
+    "dailyRate": 8000,
+    "email": "bilal@healthsoft.pk"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec2f",
+    "name": "Zainab Tariq",
+    "role": "Database Developer",
+    "responsibility": "Database design, billing, patient records",
+    "dailyRate": 8500,
+    "email": "zainab@healthsoft.pk"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec32",
+    "name": "Hassan Iqbal",
+    "role": "QA Engineer",
+    "responsibility": "Test planning, integration testing, UAT",
+    "dailyRate": 7000,
+    "email": "hassan@healthsoft.pk"
+  }
+]

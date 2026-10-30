@@ -1,0 +1,31 @@
+{
+  "name": "smart-healthcare-spms-mern",
+  "version": "1.0.0",
+  "description": "Smart Healthcare Software Project Management System - MERN stack (MongoDB, Express, React, Node)",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "build": "vite build",
+    "start": "node server/index.js",
+    "setup": "npm install && npm run build",
+    "dev:server": "node --watch server/index.js",
+    "dev:client": "vite",
+    "seed": "node server/tools/reset.js",
+    "export-db": "node server/tools/export.js",
+    "test": "node --test tests/spms.test.js"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "mongodb-memory-server-core": "10.1.4",
+    "mongoose": "8.9.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "5.4.14"
+  }
+}

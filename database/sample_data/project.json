@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec15",
+    "name": "Smart Healthcare Project Management & Monitoring System",
+    "client": "Network of five partner hospitals",
+    "sponsor": "Hospital Network Board (CEO office)",
+    "manager": "Ayesha Khan",
+    "objectives": "1. Deliver an integrated system for patient appointments, laboratory reports, doctor schedules, online consultations and hospital billing across 5 hospitals.\n2. Go live within 16 weeks and within PKR 5,000,000.\n3. Zero critical defects at go-live; 95% of appointments booked online within 3 months.",
+    "stakeholders": "Hospital Network Board (sponsor); hospital administrators (5); doctors; lab staff; billing department; patients; IT department; development team; QA.",
+    "scopeIn": "Web system for appointments, doctor schedules, lab reports, online consultations, billing, patient records; deployment and staff training at 5 hospitals.",
+    "scopeOut": "Medical hardware procurement, insurance-claim integration, pharmacy inventory, data migration of paper records older than 2 years.",
+    "approvedBudget": 5450000,
+    "baselineBudget": 5000000,
+    "startDate": "2026-08-03",
+    "deadline": "2026-12-04",
+    "baselineDeadline": "2026-11-22",
+    "status": "Monitoring & Control",
+    "statusDate": "2026-10-26",
+    "cpiWarn": 0.95,
+    "cpiCrit": 0.9,
+    "spiWarn": 0.95,
+    "spiCrit": 0.9
+  }
+]

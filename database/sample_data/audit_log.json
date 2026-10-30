@@ -1,0 +1,176 @@
+[
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec17",
+    "ts": "2026-10-27 04:16",
+    "action": "Charter created",
+    "details": "Smart Healthcare Project Management & Monitoring System"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec3a",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement added",
+    "details": "R01"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec41",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement added",
+    "details": "R02"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec48",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement added",
+    "details": "R03"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec4f",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement added",
+    "details": "R04"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec56",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement added",
+    "details": "R05"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec5d",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement added",
+    "details": "R06"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec64",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement added",
+    "details": "R07"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec6b",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement added",
+    "details": "R08"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec71",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement approved",
+    "details": "R01"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec76",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement approved",
+    "details": "R02"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec7b",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement approved",
+    "details": "R03"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec80",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement approved",
+    "details": "R04"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec85",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement approved",
+    "details": "R05"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec8a",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement approved",
+    "details": "R06"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ec8f",
+    "ts": "2026-10-27 04:16",
+    "action": "Requirement approved",
+    "details": "R07"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef4c",
+    "ts": "2026-10-27 04:16",
+    "action": "Change request raised",
+    "details": "CR-001: AI-based preliminary diagnosis module"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef66",
+    "ts": "2026-10-27 04:16",
+    "action": "Change request approved",
+    "details": "CR-001: budget PKR 5,000,000 -> PKR 5,450,000, deadline 2026-11-22 -> 2026-12-04, activity T18"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef73",
+    "ts": "2026-10-27 04:16",
+    "action": "Change request raised",
+    "details": "CR-002: Patient mobile application (Android/iOS)"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef7f",
+    "ts": "2026-10-27 04:16",
+    "action": "Change request raised",
+    "details": "CR-003: Blockchain-based patient record ledger"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef86",
+    "ts": "2026-10-27 04:16",
+    "action": "Change request rejected",
+    "details": "CR-003"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef8d",
+    "ts": "2026-10-27 04:16",
+    "action": "Defect saved",
+    "details": "D01 [Critical] Open"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef94",
+    "ts": "2026-10-27 04:16",
+    "action": "Defect saved",
+    "details": "D02 [Critical] In Progress"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48ef9b",
+    "ts": "2026-10-27 04:16",
+    "action": "Defect saved",
+    "details": "D03 [High] Resolved"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48efa2",
+    "ts": "2026-10-27 04:16",
+    "action": "Defect saved",
+    "details": "D04 [Medium] Closed"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48efa9",
+    "ts": "2026-10-27 04:16",
+    "action": "Defect saved",
+    "details": "D05 [Low] Open"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48efb0",
+    "ts": "2026-10-27 04:16",
+    "action": "Defect saved",
+    "details": "D06 [High] Open"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48efb7",
+    "ts": "2026-10-27 04:16",
+    "action": "Defect saved",
+    "details": "D07 [High] In Progress"
+  },
+  {
+    "_id": "6ae025a2f2c0e7bb7f48f082",
+    "ts": "2026-10-27 04:16",
+    "action": "Sample data loaded",
+    "details": "Smart Healthcare case study"
+  }
+]
